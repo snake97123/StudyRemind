@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeViewController.swift
 //  StudyRemind
 //
 //  Created by 山下　航 on 2023/05/31.
@@ -7,10 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("home")
         // Do any additional setup after loading the view.
     }
     

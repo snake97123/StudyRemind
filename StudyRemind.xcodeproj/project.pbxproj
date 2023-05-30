@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		F1071BB32A25D1C800A0C739 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1071BB22A25D1C800A0C739 /* AppDelegate.swift */; };
 		F1071BB52A25D1C800A0C739 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1071BB42A25D1C800A0C739 /* SceneDelegate.swift */; };
-		F1071BB72A25D1C800A0C739 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1071BB62A25D1C800A0C739 /* ViewController.swift */; };
 		F1071BBA2A25D1C800A0C739 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1071BB82A25D1C800A0C739 /* Main.storyboard */; };
 		F1071BBC2A25D1CC00A0C739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1071BBB2A25D1CC00A0C739 /* Assets.xcassets */; };
 		F1071BBF2A25D1CC00A0C739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1071BBD2A25D1CC00A0C739 /* LaunchScreen.storyboard */; };
+		F1C506712A2694A700D746DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C506702A2694A700D746DA /* ViewController.swift */; };
+		F1C506732A2699D100D746DA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C506722A2699D100D746DA /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F1071BAF2A25D1C800A0C739 /* StudyRemind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyRemind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1071BB22A25D1C800A0C739 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1071BB42A25D1C800A0C739 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F1071BB62A25D1C800A0C739 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F1071BB92A25D1C800A0C739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1071BBB2A25D1CC00A0C739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1071BBE2A25D1CC00A0C739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1071BC02A25D1CC00A0C739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C506702A2694A700D746DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1C506722A2699D100D746DA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				F1071BB22A25D1C800A0C739 /* AppDelegate.swift */,
 				F1071BB42A25D1C800A0C739 /* SceneDelegate.swift */,
-				F1071BB62A25D1C800A0C739 /* ViewController.swift */,
+				F1C506702A2694A700D746DA /* ViewController.swift */,
 				F1071BB82A25D1C800A0C739 /* Main.storyboard */,
+				F1C506722A2699D100D746DA /* HomeViewController.swift */,
 				F1071BBB2A25D1CC00A0C739 /* Assets.xcassets */,
 				F1071BBD2A25D1CC00A0C739 /* LaunchScreen.storyboard */,
 				F1071BC02A25D1CC00A0C739 /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1071BB72A25D1C800A0C739 /* ViewController.swift in Sources */,
+				F1C506712A2694A700D746DA /* ViewController.swift in Sources */,
 				F1071BB32A25D1C800A0C739 /* AppDelegate.swift in Sources */,
 				F1071BB52A25D1C800A0C739 /* SceneDelegate.swift in Sources */,
+				F1C506732A2699D100D746DA /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
